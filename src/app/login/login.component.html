@@ -1,0 +1,42 @@
+<div class="background">
+ <div class="container">
+  <div class="centerDiv">
+  <div class="centerImg" *ngIf="splash">
+   <img src="assets/images/tpl-logo.png">
+  </div>
+  <div class="centerImg bounceInLeft" *ngIf="!splash">
+   <div class="col-md-12 row">
+    <div class="col-md-6">
+     <img src="assets/images/tpl-logo.png">
+    </div>
+   <div class="col-md-6 login">
+   <div>
+   <div class="login-card">
+    <div class="input-group mb-3">
+    <div class="input-group-append">
+     <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
+    </div>
+     <input type="text" class="form-control {{showUEmailErrorMsg?'border-red':''}}" [(ngModel)]="UEmail" placeholder="Email" (input)="uEmailErrorMsg()">
+    </div>
+    <div class="input-group mb-3">
+     <div class="input-group-append">
+      <span class="input-group-text"><i class="fa fa-lock" aria-hidden="true"></i></span>
+    </div>
+    <input type="{{type}}" class="form-control {{showUPasswordErrorMsg?'border-red':''}}" [(ngModel)]="UPassword" placeholder="Password" (input)="uPasswordErrorMsg()" (keyup.enter)="login()">
+    <div class="input-group-append">
+      <span class="input-group-text1">
+       <img src="assets/images/password.png" (click)="toggleShow()" class="img-responsive cp">
+      </span>
+    </div>
+    </div>
+    <button type="button" class="btn btn-block" (click)="login()">Login</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+  </div>
+
+</div>

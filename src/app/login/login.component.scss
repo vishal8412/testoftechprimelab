@@ -1,0 +1,96 @@
+.background {
+    background-color: darkgray;
+    opacity: 1;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+}
+
+.linkclr {
+    color: #bd3838;
+    // text-decoration: none;
+    background-color: transparent;
+}
+
+.centerDiv {
+    position: relative;
+    height: 56vh;
+    background-color: rgba(247, 247, 247, 0.4);
+}
+
+.centerImg {
+    animation-delay: 2s;
+    position: absolute;
+    top: 32%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin: auto;
+}
+
+h3,
+h2 {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+}
+
+.input-group-text {
+    background-color: white;
+}
+
+.login-card {
+    width: fit-content;
+    text-align: end;
+    padding-left: 22%;
+}
+
+.login {
+    border-left: 3px solid;
+    border-color: #E10010;
+}
+
+.show {
+    display: block;
+    padding-right: 16px;
+}
+
+.modal-padding {
+    padding-top: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#snackbar {
+    background-color: red!important;
+    margin-left: -202px!important;
+    // position: absolute!important;
+}
+
+.input-group-text1 {
+    background-color: #fff;
+    border-radius: unset;
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap
+}
+
+.border-red {
+    border-color: red !important;
+    border-width: 1px !important;
+}
